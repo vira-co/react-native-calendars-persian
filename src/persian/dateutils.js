@@ -1,6 +1,8 @@
 const XDate = require('xdate');
 const moment = require('moment-jalaali');
 
+moment.loadPersian({dialect: 'persian-modern'});
+
 const cache = {
   sameMonth: {},
   dates: {},
